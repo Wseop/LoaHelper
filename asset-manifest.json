@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Lostark_Helper/static/css/main.2d84a58b.css",
-    "main.js": "/Lostark_Helper/static/js/main.6553c44d.js",
-    "static/js/377.e0aaa300.chunk.js": "/Lostark_Helper/static/js/377.e0aaa300.chunk.js",
-    "service-worker.js": "/Lostark_Helper/service-worker.js",
-    "index.html": "/Lostark_Helper/index.html",
-    "main.2d84a58b.css.map": "/Lostark_Helper/static/css/main.2d84a58b.css.map",
-    "main.6553c44d.js.map": "/Lostark_Helper/static/js/main.6553c44d.js.map",
-    "377.e0aaa300.chunk.js.map": "/Lostark_Helper/static/js/377.e0aaa300.chunk.js.map"
+    "main.css": "/LoaHelper/static/css/main.2d84a58b.css",
+    "main.js": "/LoaHelper/static/js/main.8003553a.js",
+    "static/js/377.e0aaa300.chunk.js": "/LoaHelper/static/js/377.e0aaa300.chunk.js",
+    "service-worker.js": "/LoaHelper/service-worker.js",
+    "index.html": "/LoaHelper/index.html",
+    "main.2d84a58b.css.map": "/LoaHelper/static/css/main.2d84a58b.css.map",
+    "main.8003553a.js.map": "/LoaHelper/static/js/main.8003553a.js.map",
+    "377.e0aaa300.chunk.js.map": "/LoaHelper/static/js/377.e0aaa300.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2d84a58b.css",
-    "static/js/main.6553c44d.js"
+    "static/js/main.8003553a.js"
   ]
 }
