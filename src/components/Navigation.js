@@ -3,6 +3,9 @@ import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 function Navigation() {
+  console.log('asdfasdfasdf');
+  console.log(process.env.REACT_APP_URL_BASE);
+
     return (
         <Navbar className="sticky-top ps-3 pe-3" bg="dark" variant="dark">
           <Navbar.Brand href="/">LoaHelper</Navbar.Brand>
