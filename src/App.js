@@ -9,6 +9,8 @@ import Exchange from './components/Exchange.js';
 import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
 
 function App() {
+  console.log(process.env.REACT_APP_URL_BASE);
+
   return (
     <div className="container">
       <div className="App">
