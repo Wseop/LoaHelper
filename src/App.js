@@ -9,6 +9,10 @@ import Profile from './components/Profile.js';
 import Exchange from './components/Exchange.js';
 
 function App() {
+
+  console.log(process.env.REACT_APP_URL_BASE);
+  console.log(process.env.REACT_APP_URL_SERVER);
+
   return (
     <Container className="text-center">
       <BrowserRouter basename={process.env.REACT_APP_URL_BASE}>
