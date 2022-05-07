@@ -8,6 +8,8 @@ import Profile from './components/Profile.js';
 import Exchange from './components/Exchange.js';
 
 function App() {
+  console.log(process.env.REACT_APP_URL_BASE);
+
   return (
     <div className="container">
       <div className="App">
