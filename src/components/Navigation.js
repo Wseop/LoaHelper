@@ -10,7 +10,7 @@ function Navigation() {
             <Nav.Link href='/'>캐릭터 정보</Nav.Link>
             <Nav.Link href='/exchange'>거래소 최저가</Nav.Link>
             <NavDropdown title="레이드">
-                <NavDropdown.Item href="raid">아브렐슈드</NavDropdown.Item>
+                <NavDropdown.Item href="/raid/0">아브렐슈드</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar>

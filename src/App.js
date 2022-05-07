@@ -14,11 +14,13 @@ function App() {
       <div className="App">
           <Navigation />
 
-        <BrowserRouter basename={process.env.URL_BASE}>
+        <BrowserRouter basename={process.env.REACT_APP_URL_BASE}>
           <Switch>
             <Route exact path="/" component={Profile} />
             <Route path='/exchange' component={Exchange} />
-            <Route path="/raid" component={ContentRaid} />
+            <Route path="/raid/0">
+              <ContentRaid id={Number(0)} />
+            </Route>
           </Switch>
         </BrowserRouter>
       </div>
