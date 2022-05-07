@@ -8,14 +8,12 @@ import Profile from './components/Profile.js';
 import Exchange from './components/Exchange.js';
 
 function App() {
-  console.log(process.env.REACT_APP_URL_BASE);
-
   return (
     <div className="container">
       <div className="App">
           <Navigation />
 
-        <BrowserRouter basename={process.env.REACT_APP_URL_BASE}>
+        <BrowserRouter basename="/LoaHelper">
           <Switch>
             <Route exact path="/" component={Profile} />
             <Route path='/exchange' component={Exchange} />
