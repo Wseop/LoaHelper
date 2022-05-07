@@ -11,8 +11,9 @@ function App() {
   return (
     <div className="container">
       <div className="App">
-          <Navigation />
+        <Navigation />
 
+        <BrowserRouter basename={process.env.REACT_APP_URL_BASE}>
           <Switch>
             <Route exact path="/" component={Profile} />
             <Route path='/exchange' component={Exchange} />
@@ -20,6 +21,7 @@ function App() {
               <ContentRaid id={Number(0)} />
             </Route>
           </Switch>
+        </BrowserRouter>
       </div>
     </div>
   );
