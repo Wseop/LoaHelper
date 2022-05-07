@@ -1,6 +1,7 @@
-import React from 'react';
+import { React } from 'react';
+import { Container } from 'react-bootstrap';
 import './App.css';
-import { Route, Switch, BrowserRouter } from 'react-router-dom';
+import { Route,  BrowserRouter } from 'react-router-dom';
 
 import Navigation from './components/Navigation.js';
 import ContentRaid from './components/ContentRaid.js';
@@ -9,21 +10,16 @@ import Exchange from './components/Exchange.js';
 
 function App() {
   return (
-    <div className="container">
-      <div className="App">
+    <Container className="text-center">
+      <BrowserRouter basename={process.env.REACT_APP_URL_BASE}>
         <Navigation />
-
-        <BrowserRouter basename={process.env.REACT_APP_URL_BASE}>
-          <Switch>
-            <Route exact path="/" component={Profile} />
-            <Route path='/exchange' component={Exchange} />
-            <Route path="/raid/0">
-              <ContentRaid id={Number(0)} />
-            </Route>
-          </Switch>
-        </BrowserRouter>
-      </div>
-    </div>
+        <Route exact path="/" component={Profile} />
+        <Route path='/exchange' component={Exchange} />
+        <Route path="/raid/0">
+          <ContentRaid id={Number(0)} />
+        </Route>
+      </BrowserRouter>
+    </Container>
   );
 }
 
